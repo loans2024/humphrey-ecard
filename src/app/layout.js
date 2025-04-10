@@ -28,6 +28,10 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${playfair.variable} ${geistSans.variable} ${geistMono.variable}`}
     >
+      <head>
+        <link rel="icon" href="/f.png" type="image/png" />
+      </head>
+
       <body className="antialiased">{children}</body>
     </html>
   )
