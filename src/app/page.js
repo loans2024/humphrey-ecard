@@ -1,8 +1,6 @@
-// src/app/page.js
 import Image from 'next/image'
 import { FaLinkedin, FaXTwitter } from 'react-icons/fa6'
 import QRCode from 'react-qr-code'
-
 
 export default function Home() {
   return (
@@ -11,7 +9,6 @@ export default function Home() {
         
         {/* Profile Photo */}
         <div className="w-[170px] h-[140px] bg-white rounded-lg overflow-hidden shadow-md">
-
           <Image
             src="/p.jpeg" // replace with your uploaded photo filename in public/
             alt="Humphrey"
@@ -37,7 +34,7 @@ export default function Home() {
 
         {/* QR Code */}
         <div className="bg-white p-2 rounded-md shadow-sm">
-          <QRCode value="https://your-domain.com" size={100} />
+          <QRCode value="https://humphreyecard.netlify.app/" size={100} />
         </div>
 
         {/* Tagline or Statement */}
