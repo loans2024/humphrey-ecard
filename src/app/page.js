@@ -74,6 +74,11 @@ export default function Home() {
           </a>
         </div>
 
+        {/* Quote */}
+        <div className="flex items-center justify-center gap-2 text-lg text-stone-700 mt-4">
+          <span className="text-black font-playfair font-bold">Well-architected & cost-effective solution</span>
+        </div>
+
         {/* Phone Number */}
         <div className="flex items-center justify-center gap-2 text-lg text-stone-700 mt-4">
           <FaPhoneAlt className="text-gray-800600" />
@@ -85,8 +90,9 @@ export default function Home() {
           onClick={openModal}
           className="bg-black font-playfair text-white px-3 py-2 rounded-md hover:bg-gray-800 transition mt-4"
         >
-          📅 Schedule Consultation
+          📅  Click & Schedule Consultation
         </button>
+
 
         {/* QR Code */}
         <div className="bg-white p-2 rounded-md shadow-sm my-6 mx-auto">
@@ -94,7 +100,7 @@ export default function Home() {
         </div>
 
         {/* Tagline or Statement */}
-        <p className="font-playfair text-white font-light">Scan to contact anytime, anywhere.</p>
+        <p className="font-playfair text-black font-bold">Scan to contact anytime, anywhere</p>
       </div>
 
       {/* Modal */}
