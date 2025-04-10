@@ -100,7 +100,7 @@ export default function Home() {
         </div>
 
         {/* Tagline or Statement */}
-        <p className="font-playfair text-black font-bold">Scan to contact anytime, anywhere</p>
+        <p className="font-playfair text-black font-bold">Scan QR to Consult</p>
       </div>
 
       {/* Modal */}
